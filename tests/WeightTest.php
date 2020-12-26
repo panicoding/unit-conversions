@@ -5,7 +5,7 @@ namespace Faisuc\UnitConversions\Tests;
 use Faisuc\UnitConversions\Weight;
 use PHPUnit\Framework\TestCase;
 
-class ExampleTest extends TestCase
+class WeightTest extends TestCase
 {
     /** @test */
     public function it_can_convert_kilograms_to_lbs()
