@@ -6,7 +6,7 @@ class Temperature
 {
     private float $celsius;
 
-    public static function forCelcius(float $celsius): self
+    public static function fromCelcius(float $celsius): self
     {
         return new static($celsius);
     }
